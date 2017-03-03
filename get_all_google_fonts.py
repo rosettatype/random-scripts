@@ -1,10 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Downloads all fonts from Google Gonts using the API.
+Downloads all the fonts from Google Fonts using the API (you will need an API key).
 
-This script is a modification of a Font Bakery script: https://github.com/googlefonts/fontbakery/blob/master/fontbakery-metadata-vs-api.py
-You will need an API key: https://developers.google.com/fonts/docs/developer_api
+The script is borrowing a lot from: https://github.com/googlefonts/fontbakery/blob/master/fontbakery-metadata-vs-api.py
 """
 
 import json
