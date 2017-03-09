@@ -1,6 +1,4 @@
-# Random scripts
-
-## Get all Google Fonts
+# Get all Google Fonts
 
 A Python script/CLI that downloads all the fonts from Google Fonts using the API. You will need to provide an API key, get one [here](https://developers.google.com/fonts/docs/developer_api). The script is borrowing a lot from [this FontBakery script](https://github.com/googlefonts/fontbakery/blob/master/fontbakery-metadata-vs-api.py).
 
