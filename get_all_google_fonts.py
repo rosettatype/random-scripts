@@ -95,7 +95,7 @@ def main():
                         with open(cache_font_path, "w") as fp:
                             fp.write(urllib.urlopen(font_url).read())
                     print("Downloading: {}".format(font_name))
-        print("Downloaded {} families, {} fonts in total.".format(downloaded_fonts, len(downloaded_families)))
+        print("Downloaded {} families, {} fonts in total.".format(len(downloaded_families), downloaded_fonts))
     else:
         print("Add -h for help")
 
